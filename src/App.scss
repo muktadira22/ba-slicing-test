@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+
+  & .sc-container {
+    flex-basis: 100%;
+  }
+
+  & .sc-sidebar {
+    flex-basis: 100px;
+  }
+}
